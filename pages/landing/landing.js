@@ -1,5 +1,5 @@
 import React from 'react'
-
+impport styles from '../styles.Landing.module.css'
 
 
 function landing() {
