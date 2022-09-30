@@ -1,19 +1,19 @@
 import React from 'react'
-import styles from '../../styles/Landing.module.css'
+
 
 
 function landing() {
   return (
     <div>
           <h1 className='title'>Base Apparel</h1>
-<div className={styles.container}>
-<div className={styles.left}>
-          <div className={styles.inner-container}>
-              <img className="logo" src='./images/logo.svg' alt="logo" />
+<div>
+<div >
+          <div>
+              <img className="logo" src='/logo.svg' alt="logo" />
 
               <img
                   className="bg-mobile"
-                  src="./images/hero-mobile.jpg"
+                  src="/hero-mobile.jpg"
                   alt="background mobile" />
               <h1 className='span'>
                   <span>We're</span>
@@ -31,9 +31,9 @@ function landing() {
 
               <form id="form">
                   <input id="email" type="email" placeholder="Email Address" />
-                  <img className="error-icon" src="./images/icon-error.svg" alt="error" />
+                  <img className="error-icon" src="/icon-error.svg" alt="error" />
                   <button className='button'>
-                      <img src="./images/icon-arrow.svg" alt="arrow" />
+                      <img src="/icon-arrow.svg" alt="arrow" />
                   </button >
                   <small className='error'>Please provide a valid email</small>
               </form>
